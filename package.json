@@ -1,5 +1,5 @@
 {
-  "name": "socket.io-react-hook",
+  "name": "@latitude-data/socket.io-react-hook",
   "version": "2.4.5",
   "private": true,
   "type": "module",
@@ -20,7 +20,7 @@
   "packageManager": "pnpm@9.6.0",
   "pnpm": {
     "overrides": {
-      "socket.io-react-hook": "link:./packages/socket.io-react-hook/"
+      "@latitude-data/socket.io-react-hook": "link:./packages/socket.io-react-hook/"
     }
   }
 }

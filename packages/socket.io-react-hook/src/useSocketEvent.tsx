@@ -167,7 +167,7 @@ function useSocketEvent<
         cleanup();
       }
     };
-  }, [socket]);
+  }, [socket, onMessage]);
 
   return { ...state.current, sendMessage };
 }
